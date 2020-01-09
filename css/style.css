@@ -21,7 +21,8 @@ body {
     color: #666;
     background-color: #fff;
 	font-size: 16px;
-    line-height: 1.6em;
+	line-height: 1.6em;
+	font-family: 'Caveat', cursive;
 }
 
 html {
@@ -79,6 +80,7 @@ h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-li
 .big-heading {
 	font-size: 48px;
 	font-weight: 700;
+	font-family: 'Caveat', cursive;
 }
 
 p {
@@ -671,7 +673,8 @@ hr.bold {
 }
 
 .video-caption h1 {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	font-family:'Roboto',sans-serif;
 }
 
 /* ===========================
