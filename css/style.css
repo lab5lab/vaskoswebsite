@@ -495,6 +495,7 @@ hr.bold {
 }
 .color-dark .section-heading p {
 	color: #444;
+	font-family:'Robot',sans-serif;
 }
 
 .color-dark .divider-short {
@@ -1289,7 +1290,7 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url(../img/parallax/violin.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
