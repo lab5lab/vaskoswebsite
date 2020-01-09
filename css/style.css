@@ -22,7 +22,7 @@ body {
     background-color: #fff;
 	font-size: 16px;
 	line-height: 1.6em;
-	font-family: 'Caveat', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -164,6 +164,7 @@ blockquote strong {
     box-sizing:border-box;
 	border-bottom: 1px solid #eee;
 	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
 }
 
 
@@ -258,14 +259,14 @@ blockquote strong {
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
-    color: #FE7A66;
+    color: #CB0D18;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
-    color: #FE7A66;
+    color: #CB0D18;
 }
 
 .navbar-toggle {
@@ -482,6 +483,7 @@ hr.bold {
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	font-family: 'Caveat', cursive;
 }
 
 .section-heading p {
@@ -1293,6 +1295,7 @@ Parallax
 	background-image: url(../img/parallax/violin.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display:block;
     position:relative;
     z-index:120;
@@ -1310,6 +1313,9 @@ Parallax
 	z-index: -1;
 }
 
+#parallax1 h5 {
+    overflow-wrap: anywhere;
+}
 
 #parallax2{
 	background-image: url(../img/parallax/2.jpg);
@@ -1764,6 +1770,9 @@ a.btn:focus{
   background-image: none;
 }
 
+.btn-skin {
+  font-family: 'Caveat', cursive;
+}
 
 .btn-skin:hover,
 .btn-skin:focus,
