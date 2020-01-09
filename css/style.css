@@ -693,6 +693,7 @@ hr.bold {
 .service-box {
 	background: #f9f9f9;
 	padding: 20px;
+    margin-bottom: 20px;
 }
 
 .service-icon {
@@ -1313,7 +1314,7 @@ Parallax
 	z-index: -1;
 }
 
-#parallax1 h5 {
+#parallax1 h5, #service h5 {
     overflow-wrap: anywhere;
 }
 
